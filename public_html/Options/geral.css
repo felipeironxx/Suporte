@@ -9,30 +9,50 @@ and open the template in the editor.
 */
 
 #corpo{
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 6%;
+    margin-right: 6%;
     padding: 1px 10px 10px 10px;
 }
 
-h1,h2{
+h1{
+    padding: 0px;
+    margin-left: 20%;
+    margin-top: -3%;
+}
+
+h2{
     text-align: center;
 }
 
+p{
+    font-weight: bold;
+}
+
 #img_logo{
-    position: absolute;
-    left: 20%;
+    padding: 0px;
+    margin-left: 16%;
 }
 
 #tabela_1_index{
-    position: absolute;
-    top: 1%;
-    left: 20%;
+    padding: 0px;
+    margin-top: -5%;
+    margin-left: 15%;
 }
 
 #tabela_2_index{
-    position: absolute;
-    top: 50%;
-    left: 20%;
-    background-color: yellow;
+    margin-top: 5%;
+    margin-left: 16%;
+    /*    width: 100%;
+        background-color: yellow;*/
+    padding:10px;
+/*    margin:12px -5px;*/
+    float: left;
+/*    width: 100%;*/
+    background-color:yellow;
+    list-style:none;
+    font:80% Tahoma;
+    font-weight: bold;
+    border-left:10px solid #333333;
+    line-height: 175%;
 }
 
