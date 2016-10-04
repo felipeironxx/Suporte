@@ -1,13 +1,14 @@
-$(document).ready(function() {
-	$(".v").fancybox({
-		maxWidth	: 800,
-		maxHeight	: 600,
-		fitToView	: false,
-		width		: '70%',
-		height		: '70%',
-		autoSize	: false,
-		closeClick	: false,
-		openEffect	: 'none',
-		closeEffect	: 'none'
-	});
-});
+function win(enderecoURL,w,h){
+    
+    $.fancybox({
+        'padding': 20,
+        'autoScale':true,
+        'overLayShow': false,
+        'transitionIn': 'elastic',
+        'transitionOut' : 'elastic',
+        'width': w,
+        'height': h,
+        'href' : enderecoURL,
+        'type': 'iframe'
+    });
+}
