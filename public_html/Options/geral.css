@@ -18,6 +18,8 @@ h1{
     padding: 0px;
     margin-left: 20%;
     margin-top: -3%;
+    font: 225% Arial;
+    font-weight: bold;
 }
 
 h2{
@@ -39,15 +41,19 @@ p{
     margin-left: 15%;
 }
 
+#index{
+    list-style:none;
+    font:100% Tahoma;
+    font-weight: bold;
+    border-left:15px solid #333333;
+    line-height: 175%;  
+}
+
 #tabela_2_index{
     margin-top: 5%;
-    margin-left: 16%;
-    /*    width: 100%;
-        background-color: yellow;*/
+    margin-left: 18.4%;
     padding:10px;
-/*    margin:12px -5px;*/
     float: left;
-/*    width: 100%;*/
     background-color:yellow;
     list-style:none;
     font:80% Tahoma;
